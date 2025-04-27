@@ -1,29 +1,29 @@
-Index Feature Description
-0 rd RD cost
-1 switchable rate Bitrate of the filters
-2 switchable ctx[0] Horizontal filter context
-3 switchable ctx[1] Vertical filter context
-4 need search Need for search
-5 bsize Block size
-6 partition Block partition
-7 mode Prediction mode
-8 uv mode UV prediction mode
-9 current qindex Quantization index
-10 default interp skip flags Skip search flags
-11 interp filter search mask Filter search mask
-12 mi row Block row
-13 mi col Block column
-14 width Block width
-15 height Block height
-16 mb to bottom edge Distance to bottom edge
-17 mb to left edge Distance to left edge
-18 mb to right edge Distance to right edge
-19 mb to top edge Distance to top edge
-20 rd stats luma.rate Luma bitrate
-21 rd stats luma.dist Luma distortion
-22 rd stats luma.sse Luma SSE
-23 rd stats luma.skip txfm Luma transform skip
-24 rd stats.rate Block bitrate
-25 rd stats.dist Block distortion
-26 rd stats.sse Block SSE
-27 rd stats.skip txfm Block transform skip
+Index            Feature                     Description
+0           rd                              RD cost
+1           switchable_rate                 Bitrate of the filters
+2           switchable_ctx[0]               Horizontal filter context
+3           switchable_ctx[1]               Vertical filter context
+4           need_search                     Need for search
+5           bsize                           Block size
+6           partition                       Block partition
+7           mode                            Prediction mode
+8           uv_mode                         UV prediction mode
+9           current_qindex                  Quantization index
+10          default_interp_skip_flags       Skip search flags
+11          interp_filter_search_mask       Filter search mask
+12          mi_row                          Block row
+13          mi_col                          Block column
+14          width                           Block width
+15          height                          Block height
+16          mb_to_bottom_edge               Distance to bottom edge
+17          mb_to_left_edge                 Distance to left edge
+18          mb_to_right_edge                Distance to right edge
+19          mb_to_top_edge                  Distance to top edge
+20          rd_stats_luma.rate              Luma bitrate
+21          rd_stats_luma.dist              Luma distortion
+22          rd_stats_luma.sse               Luma SSE
+23          rd_stats_luma.skip_txfm         Luma transform skip
+24          rd_stats.rate                   Block bitrate
+25          rd_stats.dist                   Block distortion
+26          rd_stats.sse                    Block SSE
+27          rd_stats.skip txfm              Block transform skip
